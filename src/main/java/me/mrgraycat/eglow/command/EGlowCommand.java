@@ -52,7 +52,7 @@ public class EGlowCommand implements CommandExecutor, TabExecutor {
 			String[] argsCopy = args.clone();
 
 			//Get the correct subcommand
-			if (args.length == 0) {
+			if (args.length == 1) {
 				args = new String[]{"gui"};
 			}
 
